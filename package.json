@@ -1,6 +1,6 @@
 {
-  "name": "gridlex",
-  "description": "Just a Flexbox Grid System",
+  "name": "gridl",
+  "description": "A Mobile First Flexbox Grid System",
   "keywords": [
     "css",
     "grid",
@@ -10,21 +10,19 @@
     "mediaqueries",
     "flexbox"
   ],
-  "url": "https://github.com/devlint/gridlex",
-  "homepage": "http://gridlex.devlint.fr",
-  "author": "https://github.com/devlint",
+  "url": "https://github.com/ChazUK/grid",
   "version": "2.7.1",
   "repository": {
     "type": "git",
-    "url": "git@github.com:devlint/gridlex.git"
+    "url": "git@github.com:ChazUK/grid.git"
   },
   "license": "MIT",
-  "main": "dist/gridlex.min.css",
-  "sass": "src/gridlex.scss",
-  "style": "docs/gridlex.css",
+  "main": "dist/grid.min.css",
+  "sass": "src/grid.scss",
+  "style": "docs/grid.css",
   "scripts": {
     "version": "npm run dist && git add -A .",
-    "dist": "node-sass src/gridlex.scss --sourceMap dist/ -o dist/ && postcss dist/gridlex.css > dist/gridlex.min.css && npm run docs",
+    "dist": "node-sass src/grid.scss --sourceMap dist/ -o dist/ && postcss dist/grid.css > dist/grid.min.css && npm run docs",
     "docs": "cp -R dist/*.* docs"
   },
   "devDependencies": {
